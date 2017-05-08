@@ -9,6 +9,7 @@
     padding:20px;
     margin:0 auto;
     margin-top:20px;
+    overflow:hidden;
 }
 .middle{
     float:left;
