@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    width:600px;
+    background:#aeaec5;
+    margin:0 auto;
+    border:1px solid gray;
+    display:flex;
+    flex-wrap: wrap;
+}
+.nav{
+    width:600px;
+    height:30px;
+    background:#fff;
+}
+.nav span{
+    line-height:30px;
+}
+.nav .span{
+    padding-left:15px;
+}
+.nav .nav-middle{
+    padding-left:80px;
+}
+.title{
+    width:600px;
+    height:50px;
+    padding-top:10px;
+    background:#fff;
+    border-bottom:1px solid gray;
+    padding-bottom:5px;
+}
+.title-home{
+    line-height:50px;
+    font-size:20px;
+    float:left;
+    padding-left:16px;
+    color:blue;
+}
+.title-right{
+    background:#aeaec5;
+    border-radius:5px;
+    width:400px;
+    height:40px;
+    margin-left:140px;
+}
+.title-right p{
+    line-height:40px;
+    padding-left:15px;
+    color:#ded3d3;
+}
+.header{
+    width:600px;
+    height:60px;
+    background:#fff;
+}
+.header span{
+    float:left;
+    line-height:60px;
+    padding-left:20px;
+}
+.header ul{
+    float:left;
+}
+.header li{
+    list-style:none;
+    font-size:30px;
+    padding:14px 6px 10px 15px;
+    color:orange;
+}
+.header .span1{
+    padding-left:100px;
+    color:blue;
+    font-size:18px;
+}
+.recent{
+    margin-top:10px;
+    width:600px;
+    min-height:200px;
+    background:#fff;
+    border-bottom:1px solid gray;
+
+}
+/*.recent*/ .p{
+                margin-left:10px;
+                padding-top:10px;
+                color:gray;
+            }
+/*.recent */.p>p:before{
+                content:"";
+                border-left:6px solid blue;
+                padding-right:8px;
+                font-size:14px;
+            }
+/*.recent*/ .items{
+                width:580px;
+                min-height:200px;
+                display:flex;
+                flex-wrap:wrap;
+                padding:0px 10px 0 10px;
+
+            }
+/*.recent*/ .item{
+                height:90px;
+                width:25%;
+                font-size:14px;
+                position:relative;
+            }
+/*.recent*/ .item p{
+                margin-top:5px;
+                text-align:center;
+                font-weight:590;
+            }
+/*.recent*/ .item li{
+                margin-top:15px;
+                margin-left:60px;
+                font-size:26px;
+                color:orange;
+            }
+.recomed{
+    width:600px;;
+    height:120px;
+    background:#fff;
+    border-bottom:1px solid gray;
+}
+.convent{
+    width:600px;
+    min-height:260px;
+    background:#fff;
+    border-bottom:1px solid gray;
+}
