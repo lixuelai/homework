@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+}
+.box-left{
+    width:300px;
+    height:100%;
+    background:pink;
+    position:fixed;
+}
+.box-left-img{
+    width:300px;
+    height:300px;
+}
+.box-left-img>img{
+    width:300px;
+}
+.box-left-img p{
+    font-size:15px;
+    color:#716662;
+   line-height:30px;
+    height:30px;
+    padding-left:10px;
+}
+.box-left-hobby span{
+    font-size:20px;
+    color:#ff2c51;
+    padding:10px 0 10px 15px;
+}
+.box-left-hobby-ft{
+    margin-top:30px;
+    position:relative;
+}
+.box-left-hobby-ft p{
+    color:#716662;
+    font-size:14px;
+   position:absolute;
+    left:140px;
+    top:5px;
+}
+.box-left-hobby-ft .um{
+    width:130px;
+    height:100px;
+}
+.box-right{
+    min-height:100%;
+    background:#cecece;
+    margin-left: 300px;
+    position:relative;
+    left:0;
+}
+/*右侧导航条*/
+.box-right-nav{
+    height:100px;
+    background:cadetblue;
+}
+.box-right-nav .nav-left{
+    margin-left:100px;
+    float:left
+}
+.box-right-nav .nav-left img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    padding-top:5px;
+}
+.box-right-nav .nav-left p{
+    font-size:15px;
+    color:#352424;
+    cursor: pointer;
+}
+.nav-right-lis{
+    list-style:none;
+    padding-top:40px;
+    margin-left:300px;
+    width:500px;
+    height:50px;
+    /*定宽能够使下面的子代不随屏幕的缩小而散乱*/
+}
+.nav-right-lis li{
+    float:left;
+    padding-left:20px;
+}
+.nav-right-lis a{
+    text-decoration: none;
+    color:orange;
+}
+/*主要内容*/
+.box-right-text{
+    width:800px;
+    min-height:800px;
+    /*border:1px solid green;*/
+    margin:0 auto;
+    overflow:hidden;
+    text-align:center;
+}
+.box-right-text h2{
+   padding-top:20px;
+}
+.box-right-text p{
+    padding-top:30px;
+    font-size:16px;
+    color:#86677a;
+}
+
+
+.box-right-foot{
+    height:220px;
+    width:100%;
+    background:#a4a4fd;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.box-right-foot .foot-message{
+    width:300px;
+    height:100px;
+    border:1px solid gray;
+    margin:20px 0 30px 20px;
+}
+.box-right-foot .foot-message p{
+    font-size:14px;
+    color:gray;
+    padding:10px 0 0 10px;
+}
+.foot-top{
+    height:50px;
+}
+.foot-top span{
+    padding-left:40px;
+    font-size:15px;
+    color:gray;
+}
