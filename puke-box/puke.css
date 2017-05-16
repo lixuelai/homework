@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+}
+.puke-k{
+    width:225px;
+    height:310px;
+    border:1px solid #cca3c3;
+    box-shadow:0 0 4px #948588;
+    border-radius:8px;
+    position:relative;
+    margin:30px;
+    background:#fff;
+}
+.puke-k .k{
+    color:red;
+    font-size:25px;
+    width:30px;
+    height:100px;
+    float:left;
+    padding:6px 0 0 10px;
+}
+.iconfont{
+    font-size:30px;
+}
+.main{
+    float:left;
+    padding-top:30px;
+   padding-left:5px;
+}
+ .puke-k .puke-k-top{
+     width:135px;
+     height:120px;
+     background:url(poke-img/puke.jpg);
+     background-position:-283px -3px;
+ }
+.hover{
+    transform:rotate(180deg);
+}
+.k-hover{
+    position:absolute;
+    left:185px;
+    top:200px;
+    transform:rotate(180deg);
+}
+.puke-k .k-1{
+    color:black;
+    font-size:25px;
+    width:30px;
+    height:100px;
+    float:left;
+    padding:6px 0 0 10px;
+}
+.puke-k{
+    float:left;
+}
+.main .top-0{
+   background-position:-1px -3px;
+}
+.main .top-1{
+    background-position:-40px -3px;
+}
+.main .top-2{
+    background-position:-144px -3px;
+}
+.main .top-3{
+    background-position:-423px -3px;
+}
+        /*扑克Q*/
+.main .Q-top-1 {
+    background-position:-284px -126px;
+}
+.main .Q-top-2 {
+    background-position:-2px -126px;
+}
+.main .Q-top-3 {
+    background-position:-143px -125px;
+}
+.main .Q-top-4 {
+    background-position:-423px -125px;
+}
+    /*扑克 J*/
+.main .Q-top-1 {
+    background-position:-283px -248px;
+}
+.main .Q-top-2 {
+    background-position:-1px -248px;
+}
+.main .Q-top-3 {
+    background-position:-143px -249px;
+}
+.main .Q-top-4 {
+    background-position: -423px -249px;
+}
+    /*扑克 A*/
+.main1 {
+    width: 100px;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 120px;
+
+}
+.main-in-1{
+    font-size:56px;
+    padding-left:25px;
+    color:red;
+}
+.main-in{
+    font-size:56px;
+    padding-left:26px;
+}
+    /*扑克 2*/
+.main2{
+    position:relative;
+    margin:28px 0 0 50px;
+    width:130px;
+    height:250px;
+}
+.main-lt{
+    position:absolute;
+    top:-10px;
+}
+.main-rt{
+    position:absolute;
+    top:200px;
+    left:75px;
+    /*transform:rotate(180deg);*/
+}
+.main-in-2{
+    font-size:46px;
+}
+.clr{
+    color:red;
+}
+/*扑克3*/
+.main-md{
+    position:absolute;
+    left:37px;
+    top:90px;
+}
+/*扑克 4*/
+.main-lt-1{
+    position:relative;
+    left:0px;
+    top:0;
+}
+.main-lt-2{
+    position:absolute;
+    left:76px;
+    top:0;
+}
+.main-rt-1{
+    position:absolute;
+    left:0;
+    top:200px;
+}
+.main-rt-2{
+    position:absolute;
+    left:76px;
+    top:200px;
+}
+/*扑克6*/
+.main-md-1{
+    position:absolute;
+    left:0;
+    top:100px;
+}
+.main-md-2{
+    position:absolute;
+    left:76px;
+    top:100px;
+}
+/*扑克7*/
+.main-lt-md{
+    position:absolute;
+    left:38px;
+    top:46px;
+}
+/*扑克8*/
+.main-rt-md{
+    position:absolute;
+    left:38px;
+    bottom:42px;
+}
+    /*扑克9*/
+.main-lt-btm1{
+    position:absolute;
+    left:0;
+    top:67px;
+}
+.main-lt-btm2 {
+    position: absolute;
+    left: 76px;
+    top: 67px;
+}
+.main-rt-top1 {
+    position: absolute;
+    left: 0;
+    top:132px;
+}
+.main-rt-top2{
+    position: absolute;
+    left: 76px;
+    top: 132px;
+}
+.main-md-nine{
+    position:absolute;
+    left:38px;
+    top:101px;
+}
+.main-sl-md1{
+    position:absolute;
+    left:38px;
+    top:33px;
+}
+.main-sl-md2{
+    position:absolute;
+    left:38px;
+    top:166px;
+}
